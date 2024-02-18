@@ -5,8 +5,6 @@ from cvzone.HandTrackingModule import HandDetector
 from time import sleep
 from pynput.keyboard import Controller
 
-# url = 'http://10.3.186.117:8080//video'
-
 cap = cv2.VideoCapture(0)
 
 cap.set(3, 1280)
